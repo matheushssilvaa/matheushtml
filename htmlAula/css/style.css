@@ -1,0 +1,51 @@
+body {
+    background-color: black;
+}
+
+#body {
+    background-color: blue;
+}
+
+#c3 {
+    color: brown;
+}
+
+p, h3 {
+    color: #fff;
+}
+
+#div1 {
+    background-color: chocolate;
+    width: 250px;
+    margin: auto;
+    padding: 10px;
+    border: 1px solid rgb(253, 253, 253);
+    border-radius: 5px;
+}
+
+table {
+    font-family: Arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td, th {
+    border: 1px solid #42424275;
+    text-align: left;
+    padding: 8px;
+    color: #fff;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: flex;
+}
+
+.box {
+    float: left;
+    width: 20%;
+    padding: 50px;
+    border: 1px solid #fff;
+    border-radius: 15px;
+}

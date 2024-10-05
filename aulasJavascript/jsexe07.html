@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Cadastro</title>
+</head>
+<body>
+    <div id="container">
+        <form>
+            <h1>Cadastro</h1>
+            <p>Digite os dados para cadastro</p>
+            <hr>
+            <label for="nome">Nome</label>
+            <input type="text" id="nome" name="nome" placeholder="Seu nome" required />
+
+            <label for="email">Email</label>
+            <input type="text" id="email" name="email" placeholder="Seu Email" required />
+
+            <label for="telefone">Telefone</label>
+            <input type="text" id="telefone" name="telefone" placeholder="Seu telefone" required />
+
+            <label for="cidade">Cidade</label>
+            <input type="text" id="cidade" name="cidade" placeholder="Sua cidade" required />
+
+            <button type="button" class="btn-salvar" oncanplay="formToJson">Salvar</button>
+
+            <script src="js/script.js"></script>
+        </form>
+    </div>
+</body>
+</html>
